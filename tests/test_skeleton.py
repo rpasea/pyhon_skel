@@ -3,11 +3,11 @@ import unittest
 
 class SkeletonTestSuite(unittest.TestCase):
 
-    def setup(self):
+    def setUp(self):
         print('Setup test')
 
-    def teardown(self):
+    def tearDown(self):
         print('Teardown test')
 
     def test_mock(self):
-        print('Testing test')
+        print('Testing asdada test')
