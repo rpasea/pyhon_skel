@@ -19,6 +19,7 @@ setup(
     url='https://github.com/rpasea/pyhon_skel',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
+    install_requires=['flask'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
 )
